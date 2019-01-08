@@ -1,0 +1,48 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Lab-11 HTTP and REST",
+    "description": "This is a test API for Lab 11 in Code 401d28.",
+    "version": "0.1.9",
+    "termsOfService": "http://swagger.io/terms/"
+  },
+  "servers": [
+    {
+      "url": "http://api.example.com/v1",
+      "description": "Optional server description, e.g. Main (production) server"
+    },
+    {
+      "url": "http://staging-api.example.com",
+      "description": "Optional server description, e.g. Internal staging server for testing"
+    }
+  ],
+  "paths": {
+    "/categories": {
+      "post": {
+        "summary": "It adds a new category",
+        "description": "Adds a new category to the store.",
+      "get": {
+        "summary": "Update category",
+        "description": "Will update an already existing catergory"
+      },
+      "parameters": [
+        {
+          "in": "path",
+          "name": "body",
+          "schema": {}
+        }
+      ],
+    "/products": {
+      "post": {
+        "summary": "Create product",
+        "description": "Creates a new product"
+      },
+      "get": {
+        "summary": "Updated product",
+        "description": "Updates an already existing product"
+      }
+    }
+                  }
+                }
+              }
+            }

@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 8080;
-const API_URL = ''
+const API_URL = '';
 
 // Set the view engine for templating
 app.set('view engine', 'ejs');
